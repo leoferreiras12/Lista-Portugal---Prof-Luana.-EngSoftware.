@@ -1,0 +1,22 @@
+
+
+
+
+
+
+
+
+programa{
+	funcao inicio(){
+		real numero1, numero2, resultado
+		escreva("Digite o primeiro numero:\n")
+		leia(numero1)
+		
+		escreva("Digitr o segundo numero;\n")
+		leia(numero2)
+		
+		resultado= numero1 + numero2
+		escreva ("\nA soma dos numeros é:",resultado)
+		
+	}
+}

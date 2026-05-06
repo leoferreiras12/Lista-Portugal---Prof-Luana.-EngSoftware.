@@ -1,0 +1,15 @@
+
+
+
+
+
+programa {
+	funcao inicio(){
+		real valor_produto, valor_final
+		escreva("Digite o valor original do produto: R$")
+		leia(valor_produto)
+		
+		valor_final=valor_produto * 0.85
+		escreva("Com o desconto de 15%, o novo valor é:R$",valor_final)
+	}
+}

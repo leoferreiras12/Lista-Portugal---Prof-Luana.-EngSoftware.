@@ -1,0 +1,28 @@
+
+
+
+
+
+
+
+
+programa 
+{
+	funcao inicio() 
+	{
+		// Declaração das variáveis para armazenar textos
+		cadeia nome, cidade
+
+		// Solicita o nome do usuário
+		escreva("Digite o seu nome: ")
+		leia(nome)
+
+		// Solicita a cidade do usuário
+		escreva("Digite a cidade onde você mora: ")
+		leia(cidade)
+
+		// Exibe a mensagem final concatenando os valores
+		// A vírgula é usada para juntar o texto com o conteúdo das variáveis
+		escreva("\nOlá ", nome, ", você mora em ", cidade, "!")
+	}
+}

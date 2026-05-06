@@ -1,0 +1,22 @@
+
+
+
+
+
+
+
+
+
+programa {
+	funcao inicio() {
+		inteiro ano_nasc, idade
+		escreva("Em que ano você nasceu? ")
+		leia(ano_nasc)
+		idade = 2024 - ano_nasc // Considerando o ano atual
+		se (idade >= 16) {
+			escreva("Você tem ", idade, " anos e já pode votar.")
+		} senao {
+			escreva("Você tem ", idade, " anos e ainda não pode votar.")
+		}
+	}
+}

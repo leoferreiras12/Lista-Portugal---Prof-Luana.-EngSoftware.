@@ -1,0 +1,20 @@
+
+
+
+
+
+programa {
+	funcao inicio() {
+		inteiro secreto = 42, chute = 0
+		enquanto (chute != secreto) {
+			escreva("Dê seu chute: ")
+			leia(chute)
+			se (chute > secreto) {
+				escreva("Muito alto!\n")
+			} senao se (chute < secreto) {
+				escreva("Muito baixo!\n")
+			}
+		}
+		escreva("Parabéns! Você acertou.")
+	}
+}
